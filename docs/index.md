@@ -68,7 +68,7 @@ Compilers are software that translate written code (the "source code", or "sourc
 
 ![explanatory figure from https://hpc-wiki.info/mediawiki/hpc_images/8/8a/Compiler_Shematic.png](figures/Compiler_Shematic.png)
 
-#### Test the software
+## Run the software
  test the software by invoking its help-message:
 
  ```bash
@@ -76,13 +76,13 @@ Compilers are software that translate written code (the "source code", or "sourc
  ```
 
 
-you should also use the resulting help-message to familiarise yourself with the usage and option list of crimap!
+you should also use the resulting help-message to familiarise yourself with the usage and option list of Cri-map!
 
 #### Input files
 compiling the software should have also resulted in some example files being created: in the same folder, there should be a file named ```chr7a.gen```. Copy it to your working directory.
 
 Cri-map is from a time before sequencing, and designed to work with very sparse and varied genetic data: allozymes, restriction assay data, or even plainly visible mendelian genetic markers such as earlobe-color,flower-petal color, etc.
-this means that the genetic data is not as standardised as you are used to. Also, these standards did not exist at the time the software was created. Therefore, Cri-map has its own input format. Crimap requires multiple input files. The required files are a ```.gen``` , a ```.loc```, a ```.dat``` and a ```.par``` file,  the most important of which is the ```.gen``` file, which contains all the genotyping and pedigree information, and should be formatted like this:
+this means that the genetic data is not as standardised as you are used to. Also, these standards did not exist at the time the software was created. Therefore, Cri-map has its own input format. Cri-map requires multiple input files. The required files are a ```.gen``` , a ```.loc```, a ```.dat``` and a ```.par``` file,  the most important of which is the ```.gen``` file, which contains all the genotyping and pedigree information, and should be formatted like this:
 
 ```
 {# of families}  
@@ -134,8 +134,8 @@ this means that the genetic data is not as standardised as you are used to. Also
 
 ### prepare the additional files for building a genetic map
 
-the ```.par```, the ```.loc``` and the ```.dat``` file can be created automatically, by using the ```prepare``` option in crimap.
-the ```.loc``` and ```.dat``` decribe the same information as the ```.gen``` file, while the ```.par``` file is a parameter file that contains the options and instructions for cri-map. This is another way of providing instructions to  software. Can you think why this might be advantageous?
+the ```.par```, the ```.loc``` and the ```.dat``` file can be created automatically, by using the ```prepare``` option in Cri-map.
+the ```.loc``` and ```.dat``` decribe the same information as the ```.gen``` file, while the ```.par``` file is a parameter file that contains the options and instructions for Cri-map. This is another way of providing instructions to  software. Can you think why this might be advantageous?
 
 ```bash
 /path/to/crimap 7a prepare
