@@ -55,7 +55,7 @@ tar -xvf software.tar.gz
 ```
 
 #### Compile
-You can have a look at the files within the resulting folder: they contain pieces of the software and instructions on how to assemble it. you do not need to know what they mean or how they work, since we will use [make](https://en.wikipedia.org/wiki/Make_(software)) an install automation software, to instruct the compilers:
+You can have a look at the files within the resulting folder: they contain pieces of the software and instructions on how to assemble it. you do not need to know what they mean or how they work, since we will use [make](https://en.wikipedia.org/wiki/Make_(software)), an install automation software, to instruct the compilers:
 ```bash
 # change into the created folder:
 cd /path/to/folder
@@ -81,8 +81,8 @@ you should also use the resulting help-message to familiarise yourself with the 
 #### Input files
 compiling the software should have also resulted in some example files being created: in the same folder, there should be a file named ```chr7a.gen```. Copy it to your working directory.
 
-Cri-map is from a time before sequencing, and designed to work with very sparse and varied genetic data: allozymes, restriction assay data, etc.
-this means that the genetic data is not as standardised as you are used to. Also, these standards did not exist at the time the software was created. Therefore, Cri-map has its own input format. Crimap requires multiple inputs. The required files are a ```.gen``` , a ```.loc```, a ```.dat``` and a ```.par``` file,  the most important of which is the ```.gen``` file, which contains all the genotyping and pedigree information, and should be formatted like this:
+Cri-map is from a time before sequencing, and designed to work with very sparse and varied genetic data: allozymes, restriction assay data, or even plainly visible mendelian genetic markers such as earlobe-color,flower-petal color, etc.
+this means that the genetic data is not as standardised as you are used to. Also, these standards did not exist at the time the software was created. Therefore, Cri-map has its own input format. Crimap requires multiple input files. The required files are a ```.gen``` , a ```.loc```, a ```.dat``` and a ```.par``` file,  the most important of which is the ```.gen``` file, which contains all the genotyping and pedigree information, and should be formatted like this:
 
 ```
 {# of families}  
@@ -103,7 +103,7 @@ this means that the genetic data is not as standardised as you are used to. Also
 
 
 #### have a look at the data from chr7a.gen:
-```bash
+```
 31 17    #31 families, 17 loci
 
 # names of the loci
@@ -168,7 +168,7 @@ You can now build the linkage map and save the content in a file:
 
 
 ### Evaluate the distance between 2 specific markers
-- using the ```fixed``` command, evaluate the distance between the markers L281-HAP-A and L0281-T-A, as well as between  L281-HAP-A and L0966-R-A.
+- using the ```fixed``` command, evaluate the distance between the markers ***L281-HAP-A*** and ***L0281-T-A***, as well as between  ***L281-HAP-A*** and ***L0966-R-A.***
 - you will need to use the ```prepare``` option again to rewrite the parameter-file. chose the ```fixed``` option and input the markers you want to compare.
 - look at the centiMorgan distance between these two pairs: what does the distance mean, biologically?
 
