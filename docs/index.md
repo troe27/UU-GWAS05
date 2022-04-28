@@ -1,7 +1,7 @@
 # Linkage analysis and GWAS - Lab 5
 
-In the following practice, we will use CRI-MAP to do the basic linkage analysis and create a simple linkage map
-Linkage mapping is an older technique that has been mostly superceded by GWA-type Studies, but can be extremely powerful for mendelian diseases, or in a population that is optimised for it, or where other constraints limit more established methods.
+In the following practice, we will use CRI-MAP to do the basic linkage analysis and create a simple linkage map.  
+Linkage mapping is an older technique that has been mostly superceded by GWA-type Studies, but can be extremely powerful for mendelian diseases, in populations that is optimised for it or where other constraints limit more established methods.
 
 
 ## Server
@@ -11,21 +11,21 @@ go to [https://IP_ADRESS](https://IP_ADRESS) and log in there.
 
 Here are your User-names and passwords:
 
-| Name  | Password  
+| Name  | Password
 |---|---|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|  Asmaa |  Tomaru |
+| Julia  | BlackMinorca  |
+|  Noah |  WhiteLeghorn |
+| Emma  |  BarredPlymouthRock |
+| Veera  |  SkanskBlommehoena |
+| Alice  | Sebright  |
+| Stella  |  RhodeIslandRed |
+| Nina  | LightBrahma  |
+|  Rebecka |  Araucana |
+| Diana  |  Orpington |
+|  Kajanthan | NorskeJaerhoens  |
+|  Basel | Barnevelder  |
+|  Philippine |  Kraienkopp |
 
 
 ## Compiling from Source
