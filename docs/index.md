@@ -32,7 +32,7 @@ Here are your User-names and passwords:
 
 The Software we are using today is very old (from the 80s!), so we are going to be old-fashioned as well. We are going to compile it from source!
 
-#### An excerpt from the Manual:
+#### An excerpt from the [Manual](https://www.animalgenome.org/hu/CRIMAPwkshp/crimap-doc.html):
 >This version of CRI-MAP is distributed as **source code** in **the language C**,
 on a 360K DOS formatted diskette. To use it, you will need to obtain
 access to a C compiler for your computer, and **compile the program**
@@ -44,7 +44,12 @@ characters), and should be compatible with most C compilers.  The program
 was developed and tested using vers. 2.0 and 2.3 of the VAX C compiler,
 on a Microvax II with 5 Mb memory under the MicroVMS operating system.
 It has been successfully ported to a number of other computers,
-including other VAXes, SUN and Apollo workstations, and the Mac II.
+including other VAXes, SUN and Apollo workstations, and the Mac II.  
+[...]  
+CRI-MAP requires a lot of memory; it is desirable to run it on a  computer with at least 1 Mb (RAM or virtual memory) if you will be analyzing more
+than 10 loci simultaneously. It may be possible to run it on an IBM AT
+under DOS if your data set is small and you reduce the default memory
+allocations, although we have not tried this yet.  
 
 #### obtain and extract the software
 The Software is located at
