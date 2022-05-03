@@ -7,7 +7,7 @@ Linkage mapping is an older technique that has been mostly superceded by GWA-typ
 ## Server
 Due to possible maintenance issues, we will not be using Rackham today. Instead, we will use a cloud computing platform.
 We have spun up an Ubuntu instance that you can log-in  using a Web-interface.
-go to [https://IP_ADRESS](https://IP_ADRESS) and log in there.
+go to [http://164.92.147.5:8787/](http://164.92.147.5:8787/) and log in there. alternatively you can also ssh into the server if you feel like!
 
 Here are your User-names and passwords:
 
@@ -48,10 +48,10 @@ including other VAXes, SUN and Apollo workstations, and the Mac II.
 
 #### obtain and extract the software
 The Software is located at
-```/path/to/software.tar.gz``` and is in the form of a [gzip](https://en.wikipedia.org/wiki/Gzip)-compressed [tarball](https://en.wikipedia.org/wiki/Tar_(computing)). copy it to your home-directory and extract it:
+```/home/shared/crimap_2.507.tgz``` and is in the form of a [gzip](https://en.wikipedia.org/wiki/Gzip)-compressed [tarball](https://en.wikipedia.org/wiki/Tar_(computing)). copy it to your home-directory and extract it:
 
 ```bash
-tar -xvf software.tar.gz
+tar -xvf crimap_2.507.tgz
 ```
 
 #### Compile
